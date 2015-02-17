@@ -8,7 +8,7 @@ e.g. user.php?id=1 -> User 1
 
 $id = $_GET['id']; //get id query string from URL
 
-if(isset($_POST["Edit"])){
+if(isset($_POST["Edit"])){//if user has submitted edit form
 		$summaryText = htmlspecialchars($_POST['summary']); //sanitize summary text
 		$interestText = htmlspecialchars($_POST['interests']); // santize interests text
 		writeToFile($id."summary.txt", $summaryText); //write summary to file (id + summary (e.g. 1summary.txt for User 1))
@@ -20,7 +20,7 @@ if(isset($_POST["Edit"])){
 ?>
 <div id="picture">
 	<div class="profilePic">
-	<img  src="assets/<?php echo $id?>.jpg" alt="User's profile picture" />
+		<img  src="assets/<?php echo $id?>.jpg" alt="User's profile picture" />
 	</div>
 </div>
 <div id="content">

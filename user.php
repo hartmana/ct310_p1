@@ -15,7 +15,7 @@ include "header.php";
 ?>
 <div id="picture">
 	<div class="pPic">
-	<img width="70%" src="assets/<?php echo $id?>.jpg" alt="User's profile picture" />
+		<img src="assets/<?php echo $id?>.jpg" alt="User's profile picture" />
 	</div>
 </div>
 <div id="content">
