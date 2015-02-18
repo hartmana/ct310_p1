@@ -34,9 +34,5 @@
         <meta http-equiv="Content-Type"
               content="text/html; charset=utf-8" />
     </head>
-    <!-- Start of page Body -->
-    <body>
-        <div id="header">
-            <p>Social Network</p>
-        </div>
+
 
