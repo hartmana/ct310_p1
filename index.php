@@ -1,10 +1,6 @@
 <?php
 
-    if (empty($_SERVER['QUERY_STRING'])) {
-        $pageName="index";
-    } else {
-        $pageName=basename($_SERVER['QUERY_STRING']);
-    }
+
 
     include 'header.php';
 php?>

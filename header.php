@@ -1,9 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
     <head>
         <?php
+
+            if (empty($_SERVER['REQUEST_URI']))
+            {
+                $pageName="index.php";
+            }
+            else
+            {
+                $pageName=basename($_SERVER['REQUEST_URI']);
+            }
 
             // var for actual page name
             $page = "";
@@ -11,14 +19,14 @@
             // SWITCH on pageName to set title (and perhaps for other reasons)
             switch($pageName)
             {
-                case "index":
+                case "index.php":
                     $page = "Home";
                     break;
-                case "user":
+                case "user.php":
                     // TODO: get actual user name
                     $page = "User Page";
                     break;
-                case "search":
+                case "search.php":
                     $page = "Search";
                     break;
                 default:
