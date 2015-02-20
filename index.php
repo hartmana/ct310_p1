@@ -35,14 +35,19 @@ php?>
             <p>These could be your friends</p>
             <ul id "memberlist">
                 <li id = "bill"> Bill Gates
+                <a href="user.php?id=1"
                 <img src="http://skeptoid.com/blog/wp-content/uploads/2013/12/bill-gates.jpeg" alt = "Bill Gates"/>
+               </a>
                 </li>
                 <li id = "steve"> Zombie Steve Jobs
+                <a href ="user.php?id=2"
                  <img src="http://blogs.kqed.org/stateofhealth/files/2011/11/Jobs_2003_rev1.jpg" alt = "Steve Jobs"/>
                 </li>
+                </a>
                 <li id = "woz"> Bill Wozniak
+                <a href = "user.php?id=3"
                 <img src="https://blog.adafruit.com/wp-content/uploads/2010/12/steve_wozniak.jpg" alt = "Bill Wozniak"/>
-                
+                </a>
                 </li>
             <ul>
             </div>
