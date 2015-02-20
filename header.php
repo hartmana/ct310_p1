@@ -33,6 +33,10 @@
         <link href="css/master.css" rel="stylesheet" type="text/css" />
         <meta http-equiv="Content-Type"
               content="text/html; charset=utf-8" />
+        <title>Creepr</title>
+        <meta name ="author" content = "Caity Corcoran, Antony Di Rocco, Peter Fiorella, Aaron Hartman">
+        <meta name ="description" content = "group 12's social media site for CT310 P1">
+        <meta name ="keywords" content = "social network friends">
     </head>
 
 
