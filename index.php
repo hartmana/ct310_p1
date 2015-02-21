@@ -10,7 +10,7 @@
 php?>
 
     <!-- Start of page Body -->
-    <body>
+    <div id ="body">
 
         <div id="wrapper">
 
@@ -46,7 +46,7 @@ php?>
                 </a>
                 <li id = "woz"> Bill Wozniak
                 <a href = "user.php?id=3"
-                <img src="https://blog.adafruit.com/wp-content/uploads/2010/12/steve_wozniak.jpg" alt = "Bill Wozniak"/>
+                <img src="http://i.ytimg.com/vi/b8pgsfLRZzA/maxresdefault.jpg" alt = "Bill Wozniak"/>
                 </a>
                 </li>
             <ul>
@@ -65,5 +65,5 @@ php?>
 
         </div>
 
-    </body>
+    </div>
 </html>
