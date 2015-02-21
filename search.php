@@ -8,7 +8,7 @@
 php?>
 
     <!-- Start of page Body -->
-    <body>
+    <div id ="body">
 
         <div id="wrapper">
 
@@ -73,5 +73,5 @@ php?>
 
         </div>
 
-    </body>
+    </div>
 </html>
