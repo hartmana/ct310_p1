@@ -1,0 +1,152 @@
+
+
+*, html{
+	margin:0;
+	padding:0;
+}
+
+
+ 
+h1, h2, h3, h4 {font-family: Montserrat, sans-serif;
+			color: white; 
+			text-shadow: 2px 2px 2px #c5f3f4;}
+
+body{margin-top:0%;
+background-color:#87c9c2;
+	z-index:1;
+	width:100%;
+}
+div.body{
+	margin-top:15%
+	padding-left:10%;
+	padding:8%;
+	background-color:#cfe9e6;
+	z-index:1;
+	width:100%;
+	height:90%;
+	max-width:60%;
+	margin-left: auto;
+    	margin-right: auto;
+}
+
+div.header{float:top;
+	position:fixed;
+	padding:0%;
+	background-color:#00c5ff;
+	color:black;
+	width:100%;
+	margin-top:0%;
+	padding-bottom:3%;
+	text-align:left;
+	text-indent:1%;
+	vertical-align:center;
+	z-index:3;
+}
+div.nav{
+	/*float:top;*/
+	position:fixed;
+	padding:0%;
+	background-color:#56bdd6;
+	color:black;
+	width:100%;
+	padding-left:1%;
+	margin-top:3%;
+	text-align:left;
+	display: inline-block;
+	z-index:4;
+	
+	
+}
+
+div.bodyleft{/*For use with right*/
+	margin-top:0%;
+	background-color:#cfe9e6;
+	padding:10%;
+	width:65%;
+	z-index:1;
+}
+div.bodyright{/*For use with left*/
+	margin-top:0%;
+	margin-left:30%;
+	background-color:#cfe9e6;
+	padding:10%;
+	width:65%;
+	position:right;
+	z-index:1;
+	max-width:45%;
+}
+div.footer{
+	position:bottom;
+	z-index:5;
+
+	margin-bottom:0%;
+	background-color:#00c5ff;
+	color:black;
+	height:10%;
+	width:100%;
+}
+div.right{
+	background-color:#b0e0e6;
+	color:blue;
+	float:right;
+	width:25%;
+	height:200%;
+	position:fixed;
+	margin-top:4%;
+	margin-right:0%;
+	margin-left:80%;
+	min-height:95vh;
+	padding-top:10%;
+	padding:3%;
+	z-index:2;
+
+}
+div.left{
+	background-color:#b0e0e6;
+	color:blue;
+	float:left;
+	width:25%;
+	height:200%;
+	position:fixed;
+	margin-top:4%;
+	margin-left:0%;
+	margin-right:80%;
+	min-height:95vh;
+	padding-top:10%;
+	padding:3%;
+	z-index:2;
+
+}
+img.right{
+	float:right;
+}
+img.left{
+	float:left;
+}
+
+a:link,a:visited,a:active{
+	
+	color:#00539e;
+	text-decoration:none;
+}
+
+a:hover{
+	background-color:#02d3d8;
+}
+nav li 
+{
+	display:inline-block;
+	
+}
+nav li a{
+	list-style: none;
+	color:blue;
+	text-decoration: none;
+	text-shadow:none;
+	display: inline-block;
+	padding:.2em;
+	
+}
+
+p{	font-weight:bold;
+	text-indent:50px;}
