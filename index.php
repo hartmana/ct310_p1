@@ -30,7 +30,7 @@ php?>
                 <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
                </a>
                 </li>
-                <li id = "steve"> Zombie Steve Jobs
+                <li id = "steve"> Steve Jobs
                 <a href ="user.php?id=2"
                  <img src="/picturelibrary/jobs.jpg" alt = "Steve Jobs"/>
                 </li>
