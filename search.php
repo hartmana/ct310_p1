@@ -36,25 +36,25 @@ php?>
             <p>These could be your friends</p>
             <ul id "memberlist">
                 <li id = "bill"> Bill Gates
-                <img src="http://skeptoid.com/blog/wp-content/uploads/2013/12/bill-gates.jpeg" alt = "Bill Gates"/>
+                <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
                 </li>
                 <li id = "steve"> Zombie Steve Jobs
-                 <img src="http://blogs.kqed.org/stateofhealth/files/2011/11/Jobs_2003_rev1.jpg" alt = "Steve Jobs"/>
+                 <img src="/picturelibrary/jobs.jpg" alt = "Steve Jobs"/>
                 </li>
                 <li id = "woz"> Bill Wozniak
-                <img src="https://blog.adafruit.com/wp-content/uploads/2010/12/steve_wozniak.jpg" alt = "Bill Wozniak"/>
+                <img src="/picturelibrary/woz.jpg" alt = "Bill Wozniak"/>
                 
                 <li id = "tesla"> Nikola Tesla
-                <img src="http://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg" alt = "Nikola Tesla"/>
+                <img src="/picturelibrary/tesla.jpg" alt = "Nikola Tesla"/>
                 
-                <li id = "woz"> Julius Robert Oppenheimer
-                <img src="http://i48.tinypic.com/2hftbap.jpg" alt = "Julius Robert Oppenheimer"/>
+                <li id = "jro"> Julius Robert Oppenheimer
+                <img src="/picturelibrary/jro.jpg" alt = "Julius Robert Oppenheimer"/>
                 
-                <li id = "woz"> Alan Turing
-                <img src="http://cdn1.itpro.co.uk/sites/itpro/files/8/06//alan_turing.jpg" alt = "Alan Turing"/>
+                <li id = "alan"> Alan Turing
+                <img src="/picturelibrary/alan.jpg" alt = "Alan Turing"/>
                 
-                <li id = "rockz"> A Rock
-                <img src="http://upload.wikimedia.org/wikipedia/commons/c/c9/Cuff_Hill_logan_stone_2.JPG" alt = "Rock"/>
+                <li id = "rock"> A Rock
+                <img src="/picturelibrary/rock.jpg" alt = "Rock"/>
                 
                 </li>
             <ul>
