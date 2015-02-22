@@ -9,12 +9,15 @@ php?>
             <?php include 'navigation.php'; php?>
 <!-- this is the left div, with content-->
             <div class="content" id = "left">
-                <h2> Welcome to MyFace</h2>
-                <p>Here is some content in the "content" div class inside the main body.
+                <h2> Welcome to Creepr</h2>
+                <p>A social network where you can see what your friends are doing at all times.
                 <br>
                 <!-- filler text -->
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin, leo ac cursus semper, nisi nisi dignissim metus, quis blandit felis lacus posuere metus. Sed dignissim leo sed turpis convallis, vel suscipit felis bibendum. Vestibulum est velit, congue ac orci eu, vehicula laoreet odio. Ut ultrices mi vel sollicitudin tincidunt. Etiam sodales tortor ut nulla ullamcorper, vitae blandit elit tempus. Etiam non est libero.
-                </p>
+                Something in latin said:"
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin, leo ac cursus semper, nisi nisi dignissim metus, quis blandit felis lacus posuere metus.
+                Sed dignissim leo sed turpis convallis, vel suscipit felis bibendum. Vestibulum est velit, congue ac orci eu, vehicula laoreet odio.
+                Ut ultrices mi vel sollicitudin tincidunt. Etiam sodales tortor ut nulla ullamcorper, vitae blandit elit tempus. Etiam non est libero.
+                "</p>
             </div>
             
 <!-- this is the right div, with current user names and pictures in the unordered list -->
