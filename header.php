@@ -23,7 +23,6 @@
                     $page = "Home";
                     break;
                 case "user.php":
-                    // TODO: get actual user name
                     $page = "User Page";
                     break;
                 case "search.php":
