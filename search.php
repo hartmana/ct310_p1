@@ -15,26 +15,23 @@ php?>
             <?php include 'navigation.php'; php?>
 <!-- this is the top div, with search form-->
             <div class="form" id = "search">
-                <h3> Search Page</h3>
+                <h2>User Search</h2>
                 <!-- this form saves the info into a file for now -->
                 <form action = "search_form.asp" method ="post">
-                Search : <input type="text" size="20" name="searchtoken">
+                Find your friend : <input type="text" size="20" name="searchtoken">
                 <input type="submit">
                 </form>
-                <p>Here is some content in the "search" div class inside the search page.
-                <br>
-                </p>
             </div>
             
 <!-- this is the bottom div, with a list of all current user names and pictures in the unordered list -->
             <div class ="userlist" id = "allmembers">
-            <h3 id = "members title"> Members </h3>
+            <h3 id = "members title"> Current Members </h3>
             <p>These could be your friends</p>
             <ul id "memberlist">
                 <li id = "bill"> Bill Gates
                 <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
                 </li>
-                <li id = "steve"> Zombie Steve Jobs
+                <li id = "steve"> Steve Jobs
                  <img src="/picturelibrary/jobs.jpg" alt = "Steve Jobs"/>
                 </li>
                 <li id = "woz"> Bill Wozniak
