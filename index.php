@@ -1,12 +1,10 @@
 <?php
 
-
-
     include 'header.php';
+    include 'navigation.php';
+
 php?>
 
-
-            <?php include 'navigation.php'; php?>
 <!-- this is the left div, with content-->
             <div class="content" id = "left">
                 <h2> Welcome to Creepr</h2>
