@@ -32,17 +32,17 @@ php?>
             <ul id "memberlist">
                 <li id = "bill"> Bill Gates
                 <a href="user.php?id=1"
-                <img src="http://skeptoid.com/blog/wp-content/uploads/2013/12/bill-gates.jpeg" alt = "Bill Gates"/>
+                <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
                </a>
                 </li>
                 <li id = "steve"> Zombie Steve Jobs
                 <a href ="user.php?id=2"
-                 <img src="http://blogs.kqed.org/stateofhealth/files/2011/11/Jobs_2003_rev1.jpg" alt = "Steve Jobs"/>
+                 <img src="/picturelibrary/jobs.jpg" alt = "Steve Jobs"/>
                 </li>
                 </a>
                 <li id = "woz"> Bill Wozniak
                 <a href = "user.php?id=3"
-                <img src="http://i.ytimg.com/vi/b8pgsfLRZzA/maxresdefault.jpg" alt = "Bill Wozniak"/>
+                <img src="/picturelibrary/woz.jpg" alt = "Bill Wozniak"/>
                 </a>
                 </li>
             <ul>
