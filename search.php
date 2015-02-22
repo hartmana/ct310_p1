@@ -12,10 +12,6 @@ php?>
 
         <div id="wrapper">
 
-            <div id="header">
-                <p>Social Network</p>
-            </div>
-
             <?php include 'navigation.php'; php?>
 <!-- this is the top div, with search form-->
             <div class="form" id = "search">

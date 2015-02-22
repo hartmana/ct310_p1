@@ -5,14 +5,6 @@
     include 'header.php';
 php?>
 
-    <!-- Start of page Body -->
-    <div id ="body">
-
-        <div id="wrapper">
-
-            <div id="header">
-                <p>Social Network</p>
-            </div>
 
             <?php include 'navigation.php'; php?>
 <!-- this is the left div, with content-->

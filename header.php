@@ -19,9 +19,6 @@
             // SWITCH on pageName to set title (and perhaps for other reasons)
             switch($pageName)
             {
-                case "index.php":
-                    $page = "Home";
-                    break;
                 case "user.php":
                     $page = "User Page";
                     break;
@@ -29,7 +26,7 @@
                     $page = "Search";
                     break;
                 default:
-                    $page = "BROKEN";
+                    $page = "Home";
                     break;
             }
 
@@ -45,5 +42,17 @@
         <meta name ="description" content = "group 12's social media site for CT310 P1">
         <meta name ="keywords" content = "social network friends">
     </head>
+    <!-- Start of page Body -->
+    <div id ="body">
+
+        <div id="wrapper">
+
+            <div id="header">
+                <p>Creepr |
+                    <?php echo $page; php?>
+                </p>
+            </div>
+
+
 
 
