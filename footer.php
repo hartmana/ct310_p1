@@ -1,9 +1,7 @@
 <?php
 
-// Maybe we will also have the users IP in here
-
-echo <<< FOOTER
-<div id="footer"><p>The foot of the page. Who doesn't love feet?<br> </p></div>
-
-FOOTER;
+echo "\n\t" . '<div id="footer">' . "\n";
+echo "\t\t" . '<p>Copyright &copy; Creepr.</p>' . "\n";
+echo "\t\t" . '<p>User IP: ' . $_SERVER["REMOTE_ADDR"] . "</p>\n";
+echo "\t" . '</div>' . "\n";
 
