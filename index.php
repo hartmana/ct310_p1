@@ -20,9 +20,9 @@ php?>
             
 <!-- this is the right div, with current user names and pictures in the unordered list -->
             <div class ="userlist" id = "right">
-            <h3 id = "members title"> Members </h3>
+            <h3 id = "membersTitle"> Members </h3>
             <p>These could be your friends</p>
-            <ul id "memberlist">
+            <ul id = "memberlist">
                 <li id = "bill"> Bill Gates
                 <a href="user.php?id=1"
                 <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
@@ -38,7 +38,7 @@ php?>
                 <img src="/picturelibrary/woz.jpg" alt = "Bill Wozniak"/>
                 </a>
                 </li>
-            <ul>
+            </ul>
             </div>
             
 <!-- this is an optional div if you wanted to for example put the user pictures in their own column -->
