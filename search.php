@@ -10,11 +10,11 @@ php?>
     <!-- Start of page Body -->
     <div id ="body">
 
-        <div id="wrapper">
+
 
             <?php include 'navigation.php'; php?>
 <!-- this is the top div, with search form-->
-            <div class="form" id = "search">
+            <div id = "left">
                 <h2>User Search</h2>
                 <!-- this form saves the info into a file for now -->
                 <form action = "search_form.asp" method ="post">
@@ -24,7 +24,7 @@ php?>
             </div>
             
 <!-- this is the bottom div, with a list of all current user names and pictures in the unordered list -->
-            <div class ="userlist" id = "allmembers">
+            <div id="right">
             <h3 id = "members title"> Current Members </h3>
             <p>These could be your friends</p>
             <ul id "memberlist">
@@ -64,7 +64,7 @@ php?>
             
             <?php include 'footer.php'; php?>
 
-        </div>
+
 
     </div>
 </html>
