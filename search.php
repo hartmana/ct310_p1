@@ -28,25 +28,25 @@ php?>
             <h3 id = "members title"> Current Members </h3>
             <p>These could be your friends</p>
             <ul id "memberlist">
-                <li id = "bill"> Bill Gates
+                <li> Bill Gates
                 <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
                 </li>
-                <li id = "steve"> Steve Jobs
+                <li> Steve Jobs
                  <img src="/picturelibrary/jobs.jpg" alt = "Steve Jobs"/>
                 </li>
-                <li id = "woz"> Bill Wozniak
+                <li> Bill Wozniak
                 <img src="/picturelibrary/woz.jpg" alt = "Bill Wozniak"/>
                 
-                <li id = "tesla"> Nikola Tesla
+                <li> Nikola Tesla
                 <img src="/picturelibrary/tesla.jpg" alt = "Nikola Tesla"/>
                 
-                <li id = "jro"> Julius Robert Oppenheimer
+                <li> Julius Robert Oppenheimer
                 <img src="/picturelibrary/jro.jpg" alt = "Julius Robert Oppenheimer"/>
                 
-                <li id = "alan"> Alan Turing
+                <li> Alan Turing
                 <img src="/picturelibrary/alan.jpg" alt = "Alan Turing"/>
                 
-                <li id = "rock"> A Rock
+                <li> A Rock
                 <img src="/picturelibrary/rock.jpg" alt = "Rock"/>
                 
                 </li>
