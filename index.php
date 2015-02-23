@@ -6,7 +6,7 @@
 php?>
 
 <!-- this is the left div, with content-->
-            <div class="content" id = "left">
+            <div id = "left">
                 <h2> Welcome to Creepr</h2>
                 <p>A social network where you can see what your friends are doing at all times.
                 <br>
@@ -19,21 +19,21 @@ php?>
             </div>
             
 <!-- this is the right div, with current user names and pictures in the unordered list -->
-            <div class ="userlist" id = "right">
-            <h3 id = "membersTitle"> Members </h3>
+            <div id = "right">
+            <h3> Members </h3>
             <p>These could be your friends</p>
             <ul id = "memberlist">
-                <li id = "bill"> Bill Gates
+                <li> Bill Gates
                 <a href="user.php?id=1"
                 <img src="/picturelibrary/bill.jpg" alt = "Bill Gates"/>
                </a>
                 </li>
-                <li id = "steve"> Steve Jobs
+                <li> Steve Jobs
                 <a href ="user.php?id=2"
                  <img src="/picturelibrary/jobs.jpg" alt = "Steve Jobs"/>
                 </li>
                 </a>
-                <li id = "woz"> Bill Wozniak
+                <li> Bill Wozniak
                 <a href = "user.php?id=3"
                 <img src="/picturelibrary/woz.jpg" alt = "Bill Wozniak"/>
                 </a>
