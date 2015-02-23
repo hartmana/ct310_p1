@@ -30,7 +30,7 @@
                     break;
             }
 
-            echo "<title> Social Network | $page </title>\n";
+            echo "<title> Creepr | $page </title>\n";
 
         php?>
 
